@@ -10,10 +10,10 @@ int main()
     printf("Enter the Y coordinate of first point y1 = ");
     scanf("%f", &y1);
     
-    printf("Enter the X coordinate of first point x2 = ");
+    printf("Enter the X coordinate of second point x2 = ");
     scanf("%f", &x2);
     
-    printf("Enter the Y coordinate of first point y2 = ");
+    printf("Enter the Y coordinate of second point y2 = ");
     scanf("%f", &y2);
     
     distance = sqrt(pow(x2-x1,2)+pow(y2-y1,2));
